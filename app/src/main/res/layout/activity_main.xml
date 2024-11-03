@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:textColor="@color/cardview_dark_background"
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text to translate"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/sourceLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Source language code (e.g., en)"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/targetLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Target language code (e.g., es)"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/translateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="91dp"
+        android:text="Translate" />
+
+</LinearLayout>
+
+
+
